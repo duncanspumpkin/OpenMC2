@@ -44,7 +44,6 @@ bool sub_612EB0(const char *key, std::uint32_t value_index, const char **value_a
 #define sub_5ED240 (MC2_PROC_PTR<void, const char *, std::uint32_t, std::uint32_t>(0x005ED240))
 #define sub_5EDA50 (MC2_PROC_PTR<void, const char *>(0x005EDA50))
 #define sub_5F0BC0 (MC2_PROC_PTR<void>(0x005F0BC0))
-#define sub_5F12F0 (MC2_PROC_PTR<bool>(0x005F12F0))
 #define sub_5F9E20 (MC2_PROC_PTR<void>(0x005F9E20))
 #define sub_5F9E30 (MC2_PROC_PTR<void>(0x005F9E30))
 #define sub_5FD2D0 (MC2_PROC_PTR<void>(0x005FD2D0))

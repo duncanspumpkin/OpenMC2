@@ -22,6 +22,7 @@
 #include <windows.h>
 #include <cstring>
 
+#include "DX9pipe.hpp"
 #include "Config.hpp"
 #include "CommandLine.hpp"
 #include "Logging.hpp"
@@ -367,7 +368,7 @@ void sub_53A7B0(const char *a, std::uint32_t b, bool c, std::uint32_t d, std::ui
     sub_5ED240(a, d, e);
     if (c)
         sub_5ED7B0(640, 480, 32, 32, 0);
-    if (!sub_5F12F0())
+    if (!init_directx())
         mc2_log_fatal("Could not start graphics.  "
             "Please check that you're in 32bpp mode "
             "and you have a DX9-class video driver.");
